@@ -13,6 +13,7 @@ class SoundManager {
         this.currentMusic.muted = this._isMuted;
         this.currentMusic.currentTime = 0;
         this.currentMusic.loop = true;
+        this.currentMusic.volume = 1;
         this.currentMusic.play();
     }
 
